@@ -22,6 +22,6 @@ int main(void)
     do
       { putchar(ch);
 	ch++;
-      } while (ch < 123)
+      } while (ch < 123);
 return (0);
 }
