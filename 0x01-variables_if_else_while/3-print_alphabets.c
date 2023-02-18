@@ -23,13 +23,11 @@ do {
 putchar(ch);
 ch++;
 } while (ch < 123);
-
- CH = 65;
- do {
-   putchar(CH);
-   CH++;
- }
- while (CH < 91);
- putchar(10);
+CH = 65;
+do {
+putchar(CH);
+CH++;
+} while (CH < 91);
+putchar(10);
 return (0);
 }
