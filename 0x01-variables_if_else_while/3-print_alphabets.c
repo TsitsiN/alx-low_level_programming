@@ -16,7 +16,7 @@
 int main(void)
 /* Print lowercase a to z */
 {
-int ch, CH ;
+int ch, CH;
 
 ch = 97;
 do {
