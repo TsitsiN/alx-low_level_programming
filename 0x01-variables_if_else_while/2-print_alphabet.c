@@ -18,10 +18,10 @@ int main(void)
 {
   int ch; 
 
-  for (  ch = 97
+ ch = 97
     do
       { putchar(ch);
-	ch++
+	ch++;
       } while ch < 123
 return (0);
 }
