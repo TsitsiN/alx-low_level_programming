@@ -14,15 +14,12 @@
 */
 
 int main(void)
-/* Print lowercase a to z */
+/* Prints numbers 0 to 10*/
 {
-int ch;
+int num;
 
-ch = 97;
-do {
-putchar(ch);
-ch++;
-} while (ch < 123);
+for (num = 0 ; num <= 10 ; num++)
+printf("%d", num);
 putchar(10);
 return (0);
 }
