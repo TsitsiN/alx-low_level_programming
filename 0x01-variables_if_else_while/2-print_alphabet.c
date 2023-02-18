@@ -16,13 +16,13 @@
 int main(void)
 /* Print lowercase a to z */
 {
-  int ch; 
+int ch;
 
-  ch = 97;
-    do
-      { putchar(ch);
-	ch++;
+ch = 97;
+do {
+putchar(ch);
+ch++;
 } while (ch < 123);
-    putchar(10);
+putchar(10);
 return (0);
 }
