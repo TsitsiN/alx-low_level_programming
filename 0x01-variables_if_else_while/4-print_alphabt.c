@@ -20,7 +20,7 @@ int ch;
 
 ch = 97;
 
-for ch != 101 or ch != 113;
+for ((ch != 101) or (ch != 113));
 
 do {
 putchar(ch);
