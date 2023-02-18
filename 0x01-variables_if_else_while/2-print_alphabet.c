@@ -22,6 +22,7 @@ int main(void)
     do
       { putchar(ch);
 	ch++;
-      } while (ch < 123);
+} while (ch < 123);
+    putchar(32);
 return (0);
 }
