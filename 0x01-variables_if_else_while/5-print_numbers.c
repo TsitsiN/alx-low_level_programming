@@ -14,11 +14,11 @@
 */
 
 int main(void)
-/* Prints numbers 0 to 10*/
+/* Prints numbers 0 to 9*/
 {
 int num;
 
-for (num = 0 ; num <= 10 ; num++)
+for (num = 0 ; num < 10 ; num++)
 printf("%d", num);
 putchar(10);
 return (0);
