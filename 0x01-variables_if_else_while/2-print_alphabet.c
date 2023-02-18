@@ -23,6 +23,6 @@ int main(void)
       { putchar(ch);
 	ch++;
 } while (ch < 123);
-    putchar(32);
+    putchar(10);
 return (0);
 }
