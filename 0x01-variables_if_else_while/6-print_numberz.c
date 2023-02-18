@@ -16,7 +16,7 @@
 int main(void)
 /* Prints numbers 0 to 9*/
 {
-char num;
+int num;
 
 for (num = 0 ; num < 10 ; num++)
 putchar(num);
