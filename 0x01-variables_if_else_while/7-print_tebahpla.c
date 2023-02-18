@@ -22,7 +22,7 @@ ch = 123;
 do {
 putchar(ch);
 ch--;
-} while (ch > 97);
+} while (ch > 96);
 putchar(10);
 return (0);
 }
