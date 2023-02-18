@@ -18,7 +18,7 @@ int main(void)
 {
   int ch; 
 
- ch = 97
+  ch = 97;
     do
       { putchar(ch);
 	ch++;
