@@ -18,7 +18,7 @@ int main(void)
 {
 int ch;
 
-ch = 123;
+ch = 122;
 do {
 putchar(ch);
 ch--;
