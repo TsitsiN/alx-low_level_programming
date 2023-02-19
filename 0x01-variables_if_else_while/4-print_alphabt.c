@@ -20,10 +20,12 @@ int ch;
 
 ch = 97;
 /*for ( ; ch != 101 ;)*/
+
+ while (ch != 101 || ch !=113);
 do {
 putchar(ch);
 ch++;
- } while (ch < 123 && (ch != 101 || ch != 113));
+ } while (ch < 123);
 putchar(10);
 return (0);
 }
