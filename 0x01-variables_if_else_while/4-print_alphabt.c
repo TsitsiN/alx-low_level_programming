@@ -19,7 +19,7 @@ int main(void)
 int ch;
 
 ch = 97;
-for (; ch != 101 ; )
+for (; ch != 101 ; );
 do {
 putchar(ch);
 ch++;
