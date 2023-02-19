@@ -23,7 +23,7 @@ for ( ; ch <123 ; ch++)
   {
     if (ch == 101 || ch == 113)
       continue;
-    putchar(ch)
+    putchar(ch);
       } 
  
 putchar(10);
