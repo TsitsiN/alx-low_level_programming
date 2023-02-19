@@ -20,8 +20,7 @@ int ch;
 
 ch = 97;
 /*for ( ; ch != 101 ;)*/
-
-/* while (ch != 101 || ch !=113)*/
+if (ch != 101 || ch !=113)
 do {
 putchar(ch);
 ch++;
