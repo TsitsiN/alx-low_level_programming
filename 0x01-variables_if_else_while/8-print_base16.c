@@ -14,17 +14,12 @@
 */
 
 int main(void)
-/* Print lowercase a to z except q and e */
+/* Prints numbers 0 to 9*/
 {
-int ch;
+int num;
 
-ch = 97;
-for( ; ch != 101 or ch != 113 ; );
-do {
-putchar(ch);
-ch++;
-} while
-(ch < 123);
+for (num = 48 ; num < 58 ; num++)
+putchar(num);
 putchar(10);
 return (0);
 }
