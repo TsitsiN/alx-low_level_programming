@@ -14,14 +14,14 @@
 */
 
 int main(void)
-/* Print lowercase a to z except 'e'and 'q'*/
+/* Print lowercase a to z except 'e'and 'q'. Code references the ASCII code*/
 {
 int ch;
 
 ch = 97;
 for ( ; ch < 123 ; ch++)
 {
-if (ch == 101 || ch == 11)
+if (ch == 101 || ch == 113)
 continue;
 putchar(ch);
 }
