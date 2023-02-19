@@ -20,9 +20,10 @@ int i=0;
 
  while(i<=9)
    { putchar (i+'0');
-     i++;
-     if (i==8)
+     /*  i++; */
+     if (i==9)
        break;
+     i++;
      putchar(',');
      putchar(' ');
    }
