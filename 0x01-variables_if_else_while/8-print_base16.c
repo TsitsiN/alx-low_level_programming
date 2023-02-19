@@ -14,12 +14,20 @@
 */
 
 int main(void)
-/* Prints numbers 0 to 9*/
+/* Prints all numbers of base 16 in lowercase */
 {
-int num;
+int ch, CH;
 
-for (num = 48 ; num < 58 ; num++)
-putchar(num);
+ch = 48;
+do {
+putchar(ch);
+ch++;
+} while (ch < 58);
+CH = 97;
+do {
+putchar(CH);
+CH++;
+} while (CH < 102);
 putchar(10);
 return (0);
 }
