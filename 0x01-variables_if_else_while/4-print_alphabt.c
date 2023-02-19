@@ -19,9 +19,10 @@ int main(void)
 int ch;
 
 ch = 97;
-for (; ch != 101 || ch != 113 ; ch++)
+for (; ch != 101 || ch != 113 ; )
 do {
 putchar(ch);
+ch++;
 } while
 (ch < 123);
 putchar(10);
