@@ -27,7 +27,7 @@ CH = 97;
 do {
 putchar(CH);
 CH++;
-} while (CH < 102);
+} while (CH < 103);
 putchar(10);
 return (0);
 }
