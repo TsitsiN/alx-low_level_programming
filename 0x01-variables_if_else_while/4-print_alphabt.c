@@ -18,7 +18,8 @@ int main(void)
 {
 int ch;
 
-for (ch = 97 ; ; )
+ch = 97;
+for ( ; ; )
 do {
 putchar(ch);
 ch++;
