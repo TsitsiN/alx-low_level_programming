@@ -16,16 +16,16 @@
 int main(void)
 /* Program prints all possible combinations of single-digit numbers*/
 {
-int i=0;
+int i = 0;
 
-while(i<=9)
-{ putchar (i+'0');
-if (i==9)
+while (i <= 9)
+{ putchar(i + '0');
+if (i == 9)
 break;
 i++;
 putchar(',');
 putchar(' ');
 }
 putchar (10);
-return(0);
+return (0);
 }
