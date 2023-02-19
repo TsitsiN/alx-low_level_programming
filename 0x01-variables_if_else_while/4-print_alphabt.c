@@ -14,17 +14,18 @@
 */
 
 int main(void)
-/* Print lowercase a to z */
+/* Print lowercase a to z except 'e'and 'q'*/
 {
 int ch;
 
 ch = 97;
-/*for ( ; ch != 101 ;)*/
-if (ch != 101 || ch !=113)
-do {
-putchar(ch);
-ch++;
- } while (ch < 123);
+for ( ; ch <123 ; ch++)
+  {
+    if (ch == 101 || ch == 113)
+      continue;
+    putchar(ch)
+      } 
+ 
 putchar(10);
 return (0);
 }
