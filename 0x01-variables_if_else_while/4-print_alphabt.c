@@ -19,13 +19,12 @@ int main(void)
 int ch;
 
 ch = 97;
-for ( ; ch <123 ; ch++)
-  {
-    if (ch == 101 || ch == 113)
-      continue;
-    putchar(ch);
-      } 
- 
+for ( ; ch < 123 ; ch++)
+{
+if (ch == 101 || ch == 11)
+continue;
+putchar(ch);
+}
 putchar(10);
 return (0);
 }
