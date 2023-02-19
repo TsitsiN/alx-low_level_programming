@@ -18,10 +18,10 @@ int main(void)
 {
 int i=0;
 
- while(i=9)
+ while(i<=9)
    { putchar (i+'0');
      i++;
-     if (i==9)
+     if (i==8)
        break;
      putchar(',');
      putchar(' ');
