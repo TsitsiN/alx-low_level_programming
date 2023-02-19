@@ -27,6 +27,6 @@ int i=0;
      putchar(',');
      putchar(' ');
    }
- /* putchar ('9'); */
+ putchar (10);
  return(0);
 }
