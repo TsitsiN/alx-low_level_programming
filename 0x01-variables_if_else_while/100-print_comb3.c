@@ -8,7 +8,7 @@
 int main(void)
 {
 int c, i;
-/*nested for loops */	
+/*nested for loops */
 for (c = '0'; c <= '9'; c++)
 {
 for (i = '0'; i <= '9'; i++)
