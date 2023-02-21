@@ -11,11 +11,11 @@
 
 void print_alphabet(void)
 {
-  int i;
+  int i = 1;
   char ch;
   
-  //  ch = 97;
-  i=1;
+  /*  //  ch = 97;*/
+  
   do{
 	    
     ch=97; 
