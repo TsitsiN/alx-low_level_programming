@@ -2,7 +2,7 @@
 
 /* more headers goes there */
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description: 'print alphabet in lowercase'
  *
@@ -11,10 +11,9 @@
 
 void print_alphabet(void)
 {
-  char ch;
-  ch=97;
-    for( ;ch<123;ch++)
-      _putchar(ch);
-	_putchar('\n');
-	/*return (0);*/
+char ch;
+ch = 97;
+for (; ch < 123; ch++)
+_putchar(ch);
+_putchar('\n');
 }
