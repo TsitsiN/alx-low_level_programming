@@ -11,17 +11,18 @@
 
 void print_alphabet(void)
 {
-  int i = 1;
+  int i;
   char ch;
   
   /*  //  ch = 97;*/
+
+  for(i=1;i<11;i++){
   
-  do{
+  
 	    
     ch=97; 
 for (; ch < 123; ch++)
 _putchar(ch);
- _putchar('\n');}
-  while( i<11);
-  i++;
- }
+ _putchar('\n');
+    }
+   }
