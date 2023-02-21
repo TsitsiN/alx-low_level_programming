@@ -1,7 +1,7 @@
 #include "main.h"
 
 /* more headers goes there */
-./**
+/**
  * print_alphabet_x10 - Entry point
  *
  * Description: 'print 10 times the alphabet'
@@ -22,6 +22,5 @@ void print_alphabet(void)
 for (; ch < 123; ch++)
 _putchar(ch);
  _putchar('\n');}
-  i++
- 
-}
+  i++;
+ }
