@@ -20,9 +20,10 @@ void print_alphabet(void)
   
   
 	    
-    ch=97; 
-for (; ch < 123; ch++)
-_putchar(ch);
+     
+for (ch=97; ch < 123; ch++)
+  {_putchar(ch);
  _putchar('\n');
-    }
-   }
+  }
+  }
+}
