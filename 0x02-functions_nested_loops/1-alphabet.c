@@ -16,5 +16,5 @@ void print_alphabet(void)
     for( ;ch<123;ch++)
       _putchar(ch);
 	_putchar('\n');
-return (0);
+	/*return (0);*/
 }
