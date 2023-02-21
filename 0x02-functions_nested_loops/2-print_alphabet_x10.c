@@ -14,13 +14,14 @@ void print_alphabet(void)
   int i;
   char ch;
   
-  ch = 97;
+  //  ch = 97;
   i=1;
-  while i<11
-	    {
-	     
+  do{
+	    
+    ch=97; 
 for (; ch < 123; ch++)
 _putchar(ch);
  _putchar('\n');}
   i++;
+  while i<11;
  }
