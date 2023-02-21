@@ -22,6 +22,6 @@ void print_alphabet(void)
 for (; ch < 123; ch++)
 _putchar(ch);
  _putchar('\n');}
-  i++;
   while i<11;
+  i++;
  }
