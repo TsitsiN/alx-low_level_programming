@@ -2,7 +2,7 @@
 
 /* more headers goes there */
 /**
- * _int print_sign- print function that prints the sign of a number - Entry point
+ * print_sign- print function that prints the sign of a number - Entry point
  *
  *Description: 'print the sign of a number'
  *
