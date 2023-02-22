@@ -2,9 +2,9 @@
 
 /* more headers goes there */
 /**
- * print function that checks for lowercase characters - Entry point
+ * _islower - print function that checks for lowercase characters - Entry point
  *
- * Description: 'print lowercase characters'
+ * Description: 'print parameters' 
  *
  * Return: 1 if it is a lower case and 0 otherwise (Success)
 */
