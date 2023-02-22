@@ -2,7 +2,7 @@
 
 /* more headers goes there */
 /**
- * _print_sign - Entry point
+ * print_sign - Entry point
  *
  * Description:  'determines if the input isgreater, equal or less than zero'
  *
@@ -13,7 +13,7 @@
  * return -1 (Success)
  *
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {_putchar(43);
