@@ -2,7 +2,7 @@
 
 /* more headers goes there */
 /**
- * print_sign- print function that prints the sign of a number - Entry point
+ * Engtry Point - print_sign- print function that prints the sign of a number.
  *
  *Description: 'print the sign of a number'
  *
@@ -14,7 +14,9 @@ int print_sign(int n)
 {
  
 if (n > 0)
-   _putchar('+');
+   _putchar('1');
+ _putchar(',');
+ _putchar('+');
  return (1);
 
  if (n <0)
