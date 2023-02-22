@@ -12,6 +12,7 @@
 
 int print_sign(int n)
 {
+  char c;
 if (n > 0)
   printf("%c",'+');
 return (1);
