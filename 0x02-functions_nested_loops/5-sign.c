@@ -13,11 +13,11 @@
 int print_sign(int n)
 {
 if (n > 0)
-printf(43);
+  printf("%c",'+');
 return (1);
 else if (n == 0)
 return (0);
 else (n < 0)
-printf(45);
+       printf("%c",'-');
 return (-1);
 }
