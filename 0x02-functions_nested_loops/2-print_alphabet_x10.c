@@ -21,6 +21,6 @@ for (ch = 97; ch < 123; ch++)
 {
 _putchar(ch);
 }
- _putchar('\n');
+_putchar('\n');
 }
 }
