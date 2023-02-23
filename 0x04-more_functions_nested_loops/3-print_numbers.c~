@@ -1,0 +1,23 @@
+#include "main.h"
+
+/* more headers goes there */
+/**
+ * print_numbers - digit check function
+ *
+ * Description:  'Checks digit input.'
+ *
+ *@c: the input integer
+ *
+ * Return: 0 Success.
+ *
+ */
+int print_numbers(int c)
+{
+
+for (c = 48; c <= 57; c++)
+{
+_putchar(c);
+_putchar("\n");}
+}
+return (0);
+}
