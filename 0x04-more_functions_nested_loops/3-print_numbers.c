@@ -12,7 +12,7 @@
  */
 void print_numbers(void)
 {
-c = 48;
+int c = 48;
 for ( ; c <= 57; c++)
 {
 _putchar(c);
