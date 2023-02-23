@@ -1,0 +1,22 @@
+#include "main.h"
+
+/* more headers goes there */
+/**
+ *  mul - Function multiplies two integers
+ *
+ * Description:  'Multiply two digits'
+ *
+ *@a: the input integer 1
+ *
+ *@b: the input integer 2
+ *
+ * Return: 0 for success.
+ *
+ */
+int mul(int a, int b)
+{
+int prod;
+  
+prod = a*b;
+return (0);
+}
