@@ -8,3 +8,5 @@ TASKS
 4-pow_recursion - prints value of x raised to the power of y
 5-sqrt_recursion - natural square root of a number
 6-is_prime_number -  returns 1 if the input integer is a prime number, otherwise return 0
+100-is_palindrome - returns 1 if a string is a palindrome and 0 if not
+101-wildcmp - compares two strings
