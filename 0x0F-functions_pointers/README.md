@@ -14,6 +14,6 @@ Tasks
   3-op_functions.c
   3-get_op_func.c
   3-main.c
- 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
+4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
  -  a program that prints the opcodes of its own main function.
  
